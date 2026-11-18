@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "bincnpc.gun.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "bincnpc.gun.mixin.CompatMixinPlugin",
+  "mixins": [
+    "ScriptGlobalsMixin",
+    "NpcDataMixin", "NpcFriendlyFireMixin", "LivingEffectFriendlyFireMixin", "ProjectileFriendlyFireMixin", "LinkedNpcMixin", "ClonePortableMixin", "RangedAiMixin", "MeleeAiMixin", "ProjectileHitAccess",
+    "compat.TaczReloadMixin", "compat.TaczFireRateMixin", "compat.TaczGunRateMixin", "compat.TaczBurstMixin", "compat.TaczSpreadMixin", "compat.TaczFriendlyFireMixin"
+  ],
+  "client": ["GuiNpcMenuMixin", "NpcAnimationMixin", "compat.TaczAnimationAccess", "compat.TaczPoseMixin"],
+  "injectors": {"defaultRequire": 1}
+}

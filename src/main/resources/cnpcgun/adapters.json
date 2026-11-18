@@ -1,0 +1,8 @@
+[
+  {"mod":"tacz","id":"tacz","class":"bincnpc.gun.compat.tacz.TaczAdapter"},
+  {"mod":"cgm","id":"cgm","class":"bincnpc.gun.compat.cgm.CgmAdapter"},
+  {"mod":"superbwarfare","id":"superbwarfare","class":"bincnpc.gun.compat.superb.SuperbAdapter"},
+  {"mod":"irons_artifice","id":"irons_artifice","class":"bincnpc.gun.compat.artifice.ArtificeAdapter"},
+  {"mod":"lrtactical","id":"lrtactical","class":"bincnpc.gun.compat.lr.LrAdapter"},
+  {"mod":"slashblade","id":"slashblade","class":"bincnpc.gun.compat.slashblade.SlashBladeAdapter"}
+]
