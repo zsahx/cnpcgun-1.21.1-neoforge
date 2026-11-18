@@ -1,0 +1,58 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "GPLv3"
+
+[[mods]]
+modId = "cnpcgun"
+version = "1.1.1"
+displayName = "CNPC-Gun 1.21.1 NeoForge"
+authors = "XiaoBiniaoX"
+description = '''
+CustomNPCs weapon (guns / bladed weapons) control extension for Minecraft 1.21.1 NeoForge.
+Unofficial community port of CNPC-Gun for 1.20.1 V1.1.0, made with the author's permission.
+'''
+
+[[mixins]]
+config = "mixins.cnpcgun.json"
+
+[[dependencies.cnpcgun]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cnpcgun]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cnpcgun]]
+modId = "customnpcs"
+type = "required"
+versionRange = "[1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cnpcgun]]
+modId = "playeranimator"
+type = "required"
+versionRange = "[1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cnpcgun]]
+modId = "tacz"
+type = "optional"
+versionRange = "[1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cnpcgun]]
+modId = "slashblade"
+type = "optional"
+versionRange = "[1,)"
+ordering = "AFTER"
+side = "BOTH"
